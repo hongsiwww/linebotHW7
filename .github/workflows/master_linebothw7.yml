@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'linebothw7'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d9843f4455174a5489a72a815ba9a362 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_131833ca60c14c8c907659c0ba87c324 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
